@@ -1,0 +1,4848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 10, 211, 255), stop:1 rgba(93, 150, 255, 255));</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>331</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>641</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(14, 211, 255);</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>308</width>
+      <height>4295</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_159">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>А</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Albacore.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="albacor">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Альбакор</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Anchovy.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="anchovy">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Анчоус</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Б</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_40">
+          <item>
+           <widget class="QLabel" name="label_39">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Red_Mullet.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="mullet">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Барабулька</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_41">
+          <item>
+           <widget class="QLabel" name="label_40">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Red_Snapper.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="snapper">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Берикс</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_26">
+          <item>
+           <widget class="QLabel" name="label_25">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Largemouth_Bass.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="largebass">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Большеротый окунь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_13">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Г</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Chub.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chub">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Голавль</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Blue_Discus.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="discus">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Голубой дискус</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_43">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Д</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QLabel" name="label_17">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Dorado.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="dorado">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Дорада</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_64">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Ж</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_63">
+          <item>
+           <widget class="QLabel" name="label_62">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Walleye.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="walleye">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Жёлтый судак</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_51">
+          <item>
+           <widget class="QLabel" name="label_50">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Spook_Fish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="spookfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Жуть-рыба</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_65">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>З</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_30">
+          <item>
+           <widget class="QLabel" name="label_29">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Lingcod.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="lingcod">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Змеезуб</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_66">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>К</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_53">
+          <item>
+           <widget class="QLabel" name="label_52">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Squid.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="squid">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Кальмар</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_22">
+          <item>
+           <widget class="QLabel" name="label_21">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Halibut.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="halibut">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Камбала</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_61">
+          <item>
+           <widget class="QLabel" name="label_60">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Stonefish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="stonefish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Камень-рыба</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Carp.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="carp">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Карп</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_34">
+          <item>
+           <widget class="QLabel" name="label_33">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Mutant_Carp.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="mutantcarp">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Карп-мутант</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Crimsonfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="crimsonfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Кримзонфиш</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_67">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Л</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_27">
+          <item>
+           <widget class="QLabel" name="label_26">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Lava_Eel.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="lavaeel">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Лавовый угорь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_28">
+          <item>
+           <widget class="QLabel" name="label_27">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Legend.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="legend">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Легенда</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_29">
+          <item>
+           <widget class="QLabel" name="label_28">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Legend_II.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="legend2">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Легенда II</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_25">
+          <item>
+           <widget class="QLabel" name="label_24">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Ice_Pip.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="icepip">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Ледопип</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_20">
+          <item>
+           <widget class="QLabel" name="label_19">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Glacierfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="glacier">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Ледорыб</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_21">
+          <item>
+           <widget class="QLabel" name="label_20">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Glacierfish_Jr..png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="glacierjr">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Ледорыб Мл.</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_64">
+          <item>
+           <widget class="QLabel" name="label_63">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Woodskip.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="woodskip">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Лесоплюх</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Bream.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bream">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Лещ</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_43">
+          <item>
+           <widget class="QLabel" name="label_42">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Salmon.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="salmon">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Лосось</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_62">
+          <item>
+           <widget class="QLabel" name="label_61">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Void_Salmon.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="voidsalmon">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Лосось пустоты</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_70">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>М</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_50">
+          <item>
+           <widget class="QLabel" name="label_49">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Smallmouth_Bass.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="smallbass">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Малоротый окунь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_24">
+          <item>
+           <widget class="QLabel" name="label_23">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Flounder.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="flounder">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Мелкая камбала</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_12">
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Ms._Angler.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="msanger">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Мисс Морской чёрт</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_31">
+          <item>
+           <widget class="QLabel" name="label_30">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Lionfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="lionfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Морской ёрш</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_47">
+          <item>
+           <widget class="QLabel" name="label_46">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Sea_Cucumber.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="seacucumber">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Морской огурец</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Angler.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="angler">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Морской чёрт</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_68">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Н</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_33">
+          <item>
+           <widget class="QLabel" name="label_32">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Midnight_Squid.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="nightsquid">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Ночной кальмар</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_71">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>О</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_36">
+          <item>
+           <widget class="QLabel" name="label_35">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Perch.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="perch">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Окунь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_55">
+          <item>
+           <widget class="QLabel" name="label_54">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Sturgeon.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="sturgeon">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Осётр</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_35">
+          <item>
+           <widget class="QLabel" name="label_34">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Octopus.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="octopus">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Осьминог</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_69">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>П</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_42">
+          <item>
+           <widget class="QLabel" name="label_41">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Sandfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="sandfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Песковник</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_32">
+          <item>
+           <widget class="QLabel" name="label_31">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Midnight_Carp.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="nightcarp">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Полуночный карп</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Ghostfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="ghostfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Пятнистый криворот</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_72">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Р</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_38">
+          <item>
+           <widget class="QLabel" name="label_37">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Radioactive_Carp.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="radioactive">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Радиоактивный карп</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_39">
+          <item>
+           <widget class="QLabel" name="label_38">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Rainbow_Trout.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rainbowtrout">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Радужная форель</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <item>
+           <widget class="QLabel" name="label_81">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Pufferfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pufferfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Рыба-ёж</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Blobfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="blobfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Рыба-пузырь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_73">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>С</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_56">
+          <item>
+           <widget class="QLabel" name="label_55">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Sunfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="sunfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Санфиш</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_46">
+          <item>
+           <widget class="QLabel" name="label_45">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Sardine.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="sardine">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Сардина</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_23">
+          <item>
+           <widget class="QLabel" name="label_22">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Herring.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="herring">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Сельдь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_52">
+          <item>
+           <widget class="QLabel" name="label_51">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Stingray.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="stingray">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Скат</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_45">
+          <item>
+           <widget class="QLabel" name="label_44">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Scorpion_Carp.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="scorpion">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Скорпионовый карп</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_49">
+          <item>
+           <widget class="QLabel" name="label_48">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Slimejack.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="slimejack">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Слаймджек</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Catfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="catfish">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Сом</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Bullhead.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bullhead">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Сомик</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_54">
+          <item>
+           <widget class="QLabel" name="label_53">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Son_of_Crimsonfish.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="crimsonfishson">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Сын Кримзонфиша</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_74">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Т</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_58">
+          <item>
+           <widget class="QLabel" name="label_57">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Tiger_Trout.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="tigertrout">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Тигровая форель</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_60">
+          <item>
+           <widget class="QLabel" name="label_59">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Tilapia.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="tilapia">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Тиляпия</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_59">
+          <item>
+           <widget class="QLabel" name="label_58">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Tuna.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="tuna">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Тунец</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_75">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>У</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_19">
+          <item>
+           <widget class="QLabel" name="label_18">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Eel.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="eel">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Угорь</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_76">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Ч</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_57">
+          <item>
+           <widget class="QLabel" name="label_56">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Super_Cucumber.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="supercucumber">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Чудо-огурец</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_77">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Ш</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_48">
+          <item>
+           <widget class="QLabel" name="label_47">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Shad.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="shad">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Шэд</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_78">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Щ</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_37">
+          <item>
+           <widget class="QLabel" name="label_36">
+            <property name="minimumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>57</width>
+              <height>53</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../pictures/fish/Pike.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pike">
+            <property name="minimumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>171</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10;
+border-width: 3px;
+border-style: outset;
+border-color: rgb(0, 89, 168);
+background-color: rgb(79, 226, 255)</string>
+            </property>
+            <property name="text">
+             <string>Щука</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">button_group</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_86">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>430</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB Demi</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent</string>
+   </property>
+   <property name="text">
+    <string>Описание:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_description">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>430</y>
+     <width>351</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>371</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB Demi</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>389</x>
+     <y>40</y>
+     <width>531</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(14, 211, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>20</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>521</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent
+</string>
+    </property>
+    <layout class="QFormLayout" name="formLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_pic">
+       <property name="minimumSize">
+        <size>
+         <width>137</width>
+         <height>127</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>114</width>
+         <height>106</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_name">
+         <property name="font">
+          <font>
+           <family>Berlin Sans FB Demi</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent</string>
+         </property>
+         <property name="text">
+          <string>Название</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_79">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Тип рыбалки:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_80">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Сложность:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_82">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Время:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_83">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Сезон:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_84">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Погода:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_difficulty">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_type">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_time">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label_season">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label_weather">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_85">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string>Место:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_place">
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB Demi</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>310</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <zorder>line_8</zorder>
+   <zorder>line_7</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_5</zorder>
+   <zorder>line_4</zorder>
+   <zorder>line_3</zorder>
+   <zorder>line_2</zorder>
+   <zorder>line</zorder>
+   <zorder>formWidget</zorder>
+  </widget>
+  <widget class="QPushButton" name="question_button">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>640</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(14, 211, 255);
+border-radius: 25</string>
+   </property>
+   <property name="text">
+    <string>?</string>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>scrollArea</zorder>
+  <zorder>label_86</zorder>
+  <zorder>label_description</zorder>
+  <zorder>question_button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="button_group"/>
+ </buttongroups>
+</ui>

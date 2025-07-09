@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hello</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>600</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(65, 68, 80);
+background-color: rgb(50, 50, 60);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border: 3px solid rgb(100, 98, 137);
+
+
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(121, 151, 255, 255), stop:1 rgba(248, 248, 242, 255));</string>
+    </property>
+    <property name="text">
+     <string>Взлом Пентагона</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_bt">
+    <property name="geometry">
+     <rect>
+      <x>915</x>
+      <y>5</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(193, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	background-color: rgb(141, 0, 0);
+	color: rgb(255, 255, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>close.png</normaloff>close.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="svor_bt">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>5</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+	background-color: rgb(202, 202, 202);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	
+	background-color: rgb(143, 143, 143);
+	color: rgb(255, 255, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>svor.png</normaloff>svor.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next_bt">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>600</y>
+      <width>250</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.278, x2:1, y2:0.67, stop:0 rgba(201, 87, 149, 255), stop:1 rgba(180, 65, 244, 255));
+border-radius: 15px;
+border: 3px solid rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Начать --&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sh_lb">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(65, 65, 65);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>       Start window</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="icon_bt">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(65, 65, 65);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/start.png</normaloff>../images/start.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fon_lb_helwd">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>1000</width>
+      <height>660</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>900</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(65, 68, 80);
+background-color: rgb(50, 50, 60);
+border-bottom-right-radius: 30px;
+border-top-left-radius: 30px;
+border: 3px solid rgb(100, 98, 137);
+
+
+
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;  Этот проект представляет собой имитацию взлома Пентагона. Нажмите кнопку &amp;quot;Начать&amp;quot;, чтобы запстить проект Если у вас уже есть результаты, нажмите &amp;quot;да&amp;quot; на следующем окне, либо другую кнопку в противом случае. Следующем пунктом вам надо выбрать одну из трёх сложностей защитных систем Пентагона, которые вы будете взламывать. От этого будет зависеть, на сколько процентов пройдет взлом. Если у вас не получится, программа сообщит об этом, а если получится, вам надо будет заполнить данные о себе, чтобы программа сохранила ваш результат.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+   <zorder>fon_lb_helwd</zorder>
+   <zorder>sh_lb</zorder>
+   <zorder>label</zorder>
+   <zorder>close_bt</zorder>
+   <zorder>svor_bt</zorder>
+   <zorder>next_bt</zorder>
+   <zorder>icon_bt</zorder>
+   <zorder>textBrowser</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

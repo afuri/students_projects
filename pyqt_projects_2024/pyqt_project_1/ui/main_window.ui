@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 10, 211, 255), stop:1 rgba(93, 150, 255, 255))</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>511</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../pictures/Stardew_Helper_Logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calendar_button">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>440</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold SemiConden</family>
+      <pointsize>20</pointsize>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(189, 139, 11, 255), stop:1 rgba(235, 173, 13, 255));
+border-color: rgb(65, 48, 20);
+border-width: 5px;
+border-radius: 10;
+border-style: outset;
+color: rgb(255, 218, 33)</string>
+    </property>
+    <property name="text">
+     <string>Садоводство</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fishing_button">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>440</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold SemiConden</family>
+      <pointsize>20</pointsize>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(189, 139, 11, 255), stop:1 rgba(235, 173, 13, 255));
+border-color: rgb(65, 48, 20);
+border-width: 5px;
+border-radius: 10;
+border-style: outset;
+color: rgb(255, 218, 33)</string>
+    </property>
+    <property name="text">
+     <string>Рыбная ловля</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="what_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(254, 212, 73);
+border-radius: 10
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Что я умею?</string>
+    </property>
+   </widget>
+   <zorder>calendar_button</zorder>
+   <zorder>label</zorder>
+   <zorder>fishing_button</zorder>
+   <zorder>what_button</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
