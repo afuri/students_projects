@@ -4,7 +4,13 @@
 
 ### 2024 год
 #### PYQT
-
+- pyqt_project_1
+- pyqt_project_2
+- pyqt_project_3
+- pyqt_project_4
+- pyqt_project_5
+- pyqt_project_6
+- pyqt_project_7
 
 
 #### PyGAME
